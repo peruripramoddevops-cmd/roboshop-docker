@@ -1,0 +1,9 @@
+services:
+  mongodb:
+    image: mongodb:v1
+
+network:
+  default:
+    driver: bridge
+    name: roboshop
+    external: false #true if you have created network manually
