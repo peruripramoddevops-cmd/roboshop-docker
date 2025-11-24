@@ -2,7 +2,7 @@ services:
   mongodb:
     image: mongodb:v1
 
-network:
+networks:
   default:
     driver: bridge
     name: roboshop
