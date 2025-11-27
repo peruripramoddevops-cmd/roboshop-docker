@@ -13,7 +13,6 @@ COPY requirements.txt .
 # Install into /install (just like you did)
 RUN pip3 install --prefix=/install -r requirements.txt
 
-
 # ===========================
 # Stage 2: Runtime (Alpine)
 # ===========================
